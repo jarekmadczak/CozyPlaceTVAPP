@@ -5,10 +5,12 @@ import Navigation from "./components/routes/Navigation";
 function App() {
   return (
     <div>
+      cso
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Navigation />} />
+        <Route path="navigation" element={<Navigation />} />
         <Route path="sikorski" element={<Sikorski />} /> 
+        <Route path="" element={<Navigation />} /> 
       </Routes>
     </BrowserRouter>
   
