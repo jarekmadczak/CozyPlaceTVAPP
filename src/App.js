@@ -1,22 +1,21 @@
 import "./App.scss";
+import { Route, Routes } from "react-router-dom"
 import Sikorski from "./components/routes/Sikorski";
 import Navigation from "./components/routes/Navigation";
 
-
 function App() {
-  let componet
-  switch (window.location.pathname) {
-      case "/":
-        componet= <Navigation />;
-      break;
-      case "/Sikorski.js":
-        componet= <Sikorski />;
-      break;
-  }
   return (
-    <div>      
-        <Navigation/>
-        {componet}
+    <div>
+      
+      
+      <Routes>
+        <Route path="/" element={<Navigation />} />
+        <Route path="/Sikorski" element={<Sikorski />} /> 
+        <Route path="/CozyPlaceTVAPP" element={<Navigation />} /> 
+        <Route path="/Navigation" element={<Navigation />} /> 
+      </Routes>
+  
+  
     </div>
   );
 }
