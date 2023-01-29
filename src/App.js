@@ -1,20 +1,22 @@
 import "./App.scss";
-import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Sikorski from "./components/routes/Sikorski";
 import Navigation from "./components/routes/Navigation";
 
+
 function App() {
+  let componet
+  switch (window.location.pathname) {
+      case "/":
+        componet= <Navigation />;
+      break;
+      case "/Sikorski.js":
+        componet= <Sikorski />;
+      break;
+  }
   return (
-    <div>
-      <Sikorski />
-       <BrowserRouter  basename={process.env.PUBLIC_URL}>
-      <Routes>
-        <Route path="/" element={<Navigation />} />
-        <Route path="sikorski" element={<Sikorski />} /> 
-      </Routes>
-    </BrowserRouter>
-  
-  
+    <div>      
+        <Navigation/>
+        {componet}
     </div>
   );
 }

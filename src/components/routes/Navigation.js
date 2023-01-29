@@ -8,13 +8,16 @@ const Navigation = () =>{
         <nav>
         <ul>
             <li>
-            <Link to="/sikorski"><h1>Sikorski</h1></Link>
-            </li>
+            <a href="/Sikorski.js">sikorski</a>
             
+            </li>
+            <li>
+                 <a href="/Navigation.js">glowna</a>
+            </li>
+           
         </ul>
         </nav>
   </div>
-  <Outlet />
   </>
     );
 };
