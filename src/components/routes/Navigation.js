@@ -13,6 +13,9 @@ const Navigation = () =>{
             <li>
             <Link to="/Navigation"><h1>navi</h1></Link>
             </li>
+            <li>
+            <Link to="/Apartament1"><h1>Apartament1</h1></Link>
+            </li>
         </ul>
         </nav>
   </div>

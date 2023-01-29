@@ -1,3 +1,4 @@
+
 .slider {
   width: 72%;
   position: relative;
@@ -5,13 +6,12 @@
   height: 30vh;
   overflow: hidden;
   float: left;
-  margin: 1%;
-  margin-top: 5vh;
+  margin-top: 2vh;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+  background-size:contain;
 }
 .sliderM{
   width: 35%;
@@ -19,13 +19,39 @@
   height: auto;
   height: 17vh;
   float: left;
-  margin: 1%;
+  margin: 1% 2% 1% 0%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.sliderText{
+  width: 75%;
+  height: 5vh;
+  font-size: 5vh;
+  margin-bottom: 6vh;
+  margin-top: -3vh;
+  color: #e0ab75;
+  position: relative;
+  letter-spacing: 0.2vh;
+  float: left;
+  
+  
+}
 
+.top-cont{
+font-size: 3vh;
+font-family: calibri light;
+color:#e0ab75;
+text-transform: uppercase;
+}
 
+.Bottom-content{
+ text-align: left;
+ margin-left: 60%;
+ font-family: "Spectral light";
+ color: rgb(78, 78, 78);
+ text-transform: uppercase;
+}
 .slide {
   
   position: absolute;
@@ -35,7 +61,7 @@
   height: 100%;
   opacity: 0;
   transform: translateX(-1%);
-  transition: all 1.5s ease;
+  transition: all 1s ease;
 }
 
 @media screen and (min-width: 600px) {
@@ -56,18 +82,11 @@
 }
 
 .content {
-  position: absolute;
-  top: 23rem;
-  left: 5rem;
   opacity: 0;
-  width: 50%;
-  color: #fff;
-  padding: 3rem;
-  background: rgba(0, 0, 0, 0.3);
-  animation: slide-up 1s ease 0.5s;
-  // animation-delay: 1s;
+  width: 75%;
+  animation: slide-up 0.5s ease 0.5s;
   animation-fill-mode: forwards;
-  visibility: hidden;
+
 }
 
 @keyframes slide-up {
@@ -88,8 +107,9 @@
 }
 
 .content > * {
-  color: #fff;
+  
   margin-bottom: 1rem;
+
 }
 
 .current .content {

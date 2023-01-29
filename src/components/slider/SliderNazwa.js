@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-
+import { sliderData } from "../../sliderm-data";
 import "./Slider.scss";
-import { sliderData } from "../../slider-data";
-const Slider = () => {
+
+const SliderNazwa = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slideLength = sliderData.length;
 
@@ -36,9 +36,7 @@ const Slider = () => {
   }, [currentSlide]);
 
   return (
- 
-
-    <div  className="slider">
+    <div className="sliderText">
       {sliderData.map((slide, index) => {
         return (
           <div
@@ -47,7 +45,10 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div>
-                <img src={slide.image} alt="slide" className="image" class="sliderimg" />
+                <div className="content">
+                  <p className="top-cont">Our Apartaments </p>
+                  <p className="Bottom-content"> {slide.heading}</p>
+                </div>
               </div>
             )}
           </div>
@@ -57,4 +58,4 @@ const Slider = () => {
   );
 };
 
-export default Slider;
+export default SliderNazwa;

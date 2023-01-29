@@ -1,8 +1,7 @@
 export const sliderData = [
   {
     image: "https://cozyplace.pl/lib/uz84dh/Apartament-Krakow1-14-l4p3vcvt.jpg",
-    heading: "Slide One",
-    desc: "Apartament ten znajduje się w zabytkowej kamienicy na Starym Mieście w Krakowie. Nocleg w murach zbudowanych w XIX w. Apartament przeznaczony ",
+   
   },
   {
     image: "https://cozyplace.pl/lib/uz84dh/Apartament-Krakow2-9-l4p3xbh9.jpg",
