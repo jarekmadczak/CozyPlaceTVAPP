@@ -1,12 +1,17 @@
 import "./App.scss";
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Sikorski from "./components/routes/Sikorski";
 import Navigation from "./components/routes/Navigation";
 
 function App() {
   return (
     <div>
-      <Sikorski />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigation />} />
+        <Route path="sikorski" element={<Sikorski />} /> 
+      </Routes>
+    </BrowserRouter>
  
     </div>
   );
