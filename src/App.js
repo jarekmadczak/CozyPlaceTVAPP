@@ -6,11 +6,8 @@ import Navigation from "./components/routes/Navigation";
 function App() {
   return (
     <div>
-    
-   
       <Sikorski />
-      
-  
+ 
     </div>
   );
 }
