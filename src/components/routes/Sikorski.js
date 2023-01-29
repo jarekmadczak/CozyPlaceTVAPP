@@ -1,43 +1,24 @@
 import React from "react";
-import Welcome from "../pages/Welcome";
-import Header from "../pages/Header";
-import Sliders from "../pages/Sliders";
+import Logo from '../pages/logo.png'
+import { Suspense } from 'react';
+const Sliders = React.lazy(() => import('../pages/Sliders'));
+const Header =React.lazy(() => import('../pages/Header')); 
+const Welcome =React.lazy(() => import('../pages/Welcome')); 
 
-class Foo extends React.Component {
-  constructor(){
-    super();
-    this.state = {loaded: false};
-  }
-
-  render(){
-    return (
-      <div>
-        {this.state.loaded ? null :
-          <div
-            style={{
-              background: 'red',
-              height: '400px',
-              width: '400px',
-            }}
-          />
-        }
-        <img
-          style={this.state.loaded ? {} : {display: 'none'}}
-          src={this.props.src}
-          onLoad={() => this.setState({loaded: true})}
-        />
-      </div>
-    );
-  }
-}
 const Sikorski = () =>{
-    return (
-    <div >
-    <Welcome />
-    <Sliders />
-    <Header />
+ 
+return (
+      <div>
+        <Suspense fallback={ <Loading /> }>
+            <Welcome />
+            <Sliders />
+            <Header />
+        </Suspense>
+    
   </div>
     );
 };
-
+function Loading() {
+  return <h2>🌀 Loading... <img  src={Logo}  className="logo"></img></h2> ;
+}
 export default Sikorski
