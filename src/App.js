@@ -6,13 +6,17 @@ import Navigation from "./components/routes/Navigation";
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <Sikorski />
+      {/* <BrowserRouter  basename={process.env.PUBLIC_URL}>
+    
+      
       <Routes>
         <Route path="/" element={<Navigation />} />
         <Route path="sikorski" element={<Sikorski />} /> 
       </Routes>
     </BrowserRouter>
- 
+  */}
+  
     </div>
   );
 }
