@@ -7,15 +7,13 @@ function App() {
   return (
     <div>
       <Sikorski />
-      {/* <BrowserRouter  basename={process.env.PUBLIC_URL}>
-    
-      
+       <BrowserRouter  basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Navigation />} />
         <Route path="sikorski" element={<Sikorski />} /> 
       </Routes>
     </BrowserRouter>
-  */}
+  
   
     </div>
   );
