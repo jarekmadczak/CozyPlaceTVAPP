@@ -11,9 +11,17 @@ const Welcome = () =>{
         <img src="https://cozyplace.pl/lib/uz84dh/Apartament-Krakow52-l4p4tj1y.jpg"  className="img"></img>
     
        </div>
+       
         <div  className="text" >
+            
         <img  src={Logo}  className="logo"></img>
-            <div className="text-1">Welcome / Witamy </div>
+            <div className="text-wrapper">
+                <div className="box t1">Welcome</div>
+                <div className="box t3">Witamy</div>
+                <div className="box t2">On Sikorski</div>
+                <div className="box t4">Na Sikorski</div>
+
+            </div>
             
         </div>
     
