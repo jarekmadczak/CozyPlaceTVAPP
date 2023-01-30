@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/CozyPlaceTVAPP/static/css/main.e5a25eb9.css",
-    "main.js": "/CozyPlaceTVAPP/static/js/main.d864fe76.js",
-    "static/js/271.c1ee95ef.chunk.js": "/CozyPlaceTVAPP/static/js/271.c1ee95ef.chunk.js",
+    "main.css": "/CozyPlaceTVAPP/static/css/main.b5b0f612.css",
+    "main.js": "/CozyPlaceTVAPP/static/js/main.0cc2bf0c.js",
+    "static/js/794.e1a925a2.chunk.js": "/CozyPlaceTVAPP/static/js/794.e1a925a2.chunk.js",
     "static/js/266.e20e6593.chunk.js": "/CozyPlaceTVAPP/static/js/266.e20e6593.chunk.js",
     "static/media/logo.png": "/CozyPlaceTVAPP/static/media/logo.727ae2213783c9bc4401.png",
+    "static/media/icona.png": "/CozyPlaceTVAPP/static/media/icona.a4cd00df6e3b9443defc.png",
     "index.html": "/CozyPlaceTVAPP/index.html",
-    "main.e5a25eb9.css.map": "/CozyPlaceTVAPP/static/css/main.e5a25eb9.css.map",
-    "main.d864fe76.js.map": "/CozyPlaceTVAPP/static/js/main.d864fe76.js.map",
-    "271.c1ee95ef.chunk.js.map": "/CozyPlaceTVAPP/static/js/271.c1ee95ef.chunk.js.map",
+    "main.b5b0f612.css.map": "/CozyPlaceTVAPP/static/css/main.b5b0f612.css.map",
+    "main.0cc2bf0c.js.map": "/CozyPlaceTVAPP/static/js/main.0cc2bf0c.js.map",
+    "794.e1a925a2.chunk.js.map": "/CozyPlaceTVAPP/static/js/794.e1a925a2.chunk.js.map",
     "266.e20e6593.chunk.js.map": "/CozyPlaceTVAPP/static/js/266.e20e6593.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5a25eb9.css",
-    "static/js/main.d864fe76.js"
+    "static/css/main.b5b0f612.css",
+    "static/js/main.0cc2bf0c.js"
   ]
 }
