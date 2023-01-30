@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import Sikorski from "./components/routes/Sikorski";
 import Navigation from "./components/routes/Navigation";
 import Apartament1 from "./components/routes/Apartament1";
-import { useState } from "react";
+import { Suspanse,lazy, Suspense } from "react";
 function App() {
   return (
     (

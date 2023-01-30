@@ -1,14 +1,14 @@
 import React from "react";
 import Logo from '../pages/logo.png'
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Welcome = () =>{
     return (
         <div id="welcome">
         <div className="welcome">
               
-      
-        <img src="https://cozyplace.pl/lib/uz84dh/Apartament-Krakow52-l4p4tj1y.jpg"  className="img"></img>
+        <LazyLoadImage alt="alsd" effect="blur"  src="https://cozyplace.pl/lib/uz84dh/Apartament-Krakow52-l4p4tj1y.jpg" className="img" />
+    
     
        </div>
        

@@ -51,6 +51,21 @@ html {
     
 } 
 
+
+
+.bottomsociale{
+  border-radius: 1vh;
+  width: 32%;
+  height: 40vh;
+  float: left;
+  height: 40vh;
+  margin-top: 5vh;
+  padding-left: 1%;
+}
+.qrcodes{
+  width: 40%;
+}
+
 .SocialeBottomText{
  font-family: "Spectral light";
  font-size: 3vh;
@@ -59,19 +74,39 @@ html {
 
 }
 
+.SocialeBottomTextK{
+  font-family: "Spectral light";
+  font-size: 5vh;
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+ 
+}
 
 
-.a {
-font-size: 190px;
-animation: pulse 5s linear infinite;
-width: 50%;
+.socialstrona{
+  width: 23%;
+  padding: 1%;
+  height: 40vh;
+  margin: 1vh 11vh 3vh 11vh ;
+  filter: drop-shadow(3px 8px 10px gray); 
+  border-radius: 1vh;
 }
 
 .socialinsta{
-  width: 25%;
-  height: auto;
-  margin-top: 10vh;
-  margin: 10vh 2vh 3vh 2vh ;
+  width: 23%;
+  padding: 1%;
+  height: 40vh;
+  margin: 1vh 2vh 3vh 2vh ;
+  filter: drop-shadow(3px 8px 10px gray); 
+  border-radius: 1vh;
+}
+.socialfacebok{
+  width: 23%;
+  padding: 1%;
+  height: 40vh;
+  margin: 4vh 6vh 3vh 2vh ;
+  filter: drop-shadow(3px 8px 10px gray); 
+  border-radius: 1vh;
 }
 .SocialeimgBottomText{
   float: left;
@@ -79,21 +114,37 @@ width: 50%;
   font-family: "Spectral light";
   color: rgb(78, 78, 78);
   text-transform: uppercase;
-  font-size: 2vh;
+  font-size: 5vh;
   font-weight: bold;
-  width: 45%;
+  margin-top: 10vh;
+  width: 39%;
   
 }
+.smalluk{
+  width: 8%;
+  height: 3.33vh;
+}
+.smallicons{
+  width: 15%;
+  height: 7vh;
+
+}
+  
 .SocialeimgBottomText1{
   float: left;
   color: black;
   font-family: "Spectral light";
   color: rgb(78, 78, 78);
-  text-transform: uppercase;
-  font-size: 2vh;
-  font-weight: bold;
-  width: 10%;
+  font-size: 4vh;
+  margin-top: 10vh;
+  width: 27%;
   
+}
+.loading{
+  background-color: black;
+  text-align: center;
+  width: 100%;
+  height: 110vh;
 }
 .SocialeimgBottomText2{
   float: left;
@@ -103,8 +154,9 @@ width: 50%;
   text-transform: uppercase;
   font-size: 2vh;
   font-weight: bold;
-  width: 45%;
-  
+  font-size: 5vh;
+  margin-top: 10vh;
+  width: 39%;
 }
 
 .flexCenter{
@@ -119,7 +171,10 @@ text-align: center;
   text-align: center;
   
 }
-
+.a {
+    
+  animation: pulse 1s linear infinite;
+}
 @-webkit-keyframes pulse {
 0% {
 -webkit-transform: scale(1.1);
@@ -563,7 +618,14 @@ opacity: 0.7;
   } 
 
 }
-
+.loadinglogo{
+  width: 60%;
+  position: relative;
+  height: 70vh;
+  overflow: hidden;
+  top: 20%;
+  animation: pulse 1s linear infinite;
+}
 .logo{
   width: 60%;
   position: relative;
@@ -573,7 +635,7 @@ opacity: 0.7;
 }
 .img{
  
-width: 100%;
+width: 130%;
 border-radius: 10px;
 height: 100%;
 object-fit: cover;

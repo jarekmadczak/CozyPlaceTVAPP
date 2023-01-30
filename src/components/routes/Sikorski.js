@@ -25,18 +25,18 @@ return (
         <Link id="social" to='sociale' smooth={true}  spy={true} ></Link>  
         <Link id="welcomes" to='welcome' smooth={true}  spy={true} ></Link>  
         {/* to do id w klasie np header to regulamin i id ktore wywołuejmy w funcki  height wyskosc strony i trezba obrocic */}
-        <Suspense fallback={ <Loading /> }>
+         <Suspense fallback={ <Loading /> }>
             <Welcome onLoad={autoscroll(0,"header")} />
             <Sliders />
             <Header onLoad={autoscroll(20,"social")} />
             <Socials />
-        </Suspense>
+        </Suspense> 
     
   </div>
     );
 };
 function Loading() {
-  return <h2>🌀 Loading... <img  src={Logo}  className="logo"></img></h2> ;
+  return <div className="loading"><img  className="loadinglogo" src={Logo}></img></div> ;
 }
 
 export default Sikorski

@@ -1,6 +1,6 @@
 export const sliderData = [
   {
-    image: "https://cozyplace.pl/lib/uz84dh/Apartament-Krakow1-14-l4p3vcvt.jpg",
+    image: "https://cozyplace.pl/files/dynamicContent/sites/uz84dh/images/pl/webpage_1/l9sl672i/element_32/Apartament-Krakow2-10.jpg",
    
   },
   {
