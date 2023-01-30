@@ -6,7 +6,7 @@ const Header = (refs)  =>{
 
     return (
         <div className="regulamin">
-            <h1>tu bedzei regulamin czy co ciocia lub marek wymysli</h1>
+            regulamin czy co ciocia lub marek wymysli
             <br></br>
                 <h1 id="regulamin"> 
                 <p className="regulamin-text">→ zwierzęta nie są akceptowane </p>
