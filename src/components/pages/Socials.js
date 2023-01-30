@@ -24,8 +24,8 @@ const Socials = (refs)  =>{
         </motion.div>
  <div className={`flexCenter`}>        
             <p className="SocialeimgBottomText1"><img className="smallicons" src={logo}></img> cozyplace.pl </p>
-            <p className="SocialeimgBottomText1"><img className="smallicons" src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></img> cozyplace.krakow </p>
-            <p className="SocialeimgBottomText1"> <img className="smallicons" src="https://cdn-icons-png.flaticon.com/512/59/59157.png"></img> Cozy Place Apartamenty</p>
+            <p className="SocialeimgBottomText3"><img className="smallicons" src="https://cdn-icons-png.flaticon.com/512/87/87390.png"></img> cozyplace.krakow </p>
+            <p className="SocialeimgBottomText2"> <img className="smallicons" src="https://cdn-icons-png.flaticon.com/512/59/59157.png"></img> Cozy Place Apartamenty</p>
             </div>
         <div className={`flexCenter`}>
             <motion.img variants={fadeIn("up", "tween", .5, .6)} src="http://www.qr-code-generator.com/phpqrcode/getCode.php?cht=qr&chl=https%3A%2F%2Fwww.instagram.com%2Fcozyplace.krakow%2F&chs=180x180&choe=UTF-8&chld=L|0" alt="project" className="socialinsta" />

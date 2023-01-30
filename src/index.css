@@ -41,14 +41,9 @@ html {
 }
 .SocialeTopText
 {
-    color: black;
-    font-family: "Spectral light";
-    color: rgb(78, 78, 78);
-    text-transform: uppercase;
-    font-size: 4vh;
-    font-weight: bold;
-    
-    
+  font-family: calibri light;
+  color:#e0ab75;
+  font-size: 4vh;
 } 
 
 
@@ -125,9 +120,9 @@ html {
   height: 3.33vh;
 }
 .smallicons{
-  width: 15%;
-  height: 7vh;
-
+  width: 10%;
+  height: 5vh;
+  filter: grayscale(100%);
 }
   
 .SocialeimgBottomText1{
@@ -137,7 +132,29 @@ html {
   color: rgb(78, 78, 78);
   font-size: 4vh;
   margin-top: 10vh;
-  width: 27%;
+  width: 30%;
+  margin-left: 5vh;
+
+}
+.SocialeimgBottomText3{
+  float: left;
+  color: black;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  font-size: 4vh;
+  margin-top: 10vh;
+  width: 30%;
+  margin-left: 1.5vh;
+}
+.SocialeimgBottomText2{
+  float: left;
+  color: black;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  font-size: 4vh;
+  margin-top: 10vh;
+  width: 30%;
+  margin-left: 3vh;
   
 }
 .loading{
@@ -146,18 +163,7 @@ html {
   width: 100%;
   height: 110vh;
 }
-.SocialeimgBottomText2{
-  float: left;
-  color: black;
-  font-family: "Spectral light";
-  color: rgb(78, 78, 78);
-  text-transform: uppercase;
-  font-size: 2vh;
-  font-weight: bold;
-  font-size: 5vh;
-  margin-top: 10vh;
-  width: 39%;
-}
+
 
 .flexCenter{
   align-items: center;
@@ -642,7 +648,14 @@ object-fit: cover;
 
 
 }
-
+.regulamin-text{
+  text-align: left;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+  font-size: 4vh;
+  margin-top: 1vh;
+}
 .regulamin{
   width: 30%;
   height: 50vh;

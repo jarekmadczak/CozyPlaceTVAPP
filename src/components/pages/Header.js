@@ -6,8 +6,12 @@ const Header = (refs)  =>{
 
     return (
         <div className="regulamin">
-            <img  src="https://cozyplace.pl/files/dynamicContent/sites/uz84dh/images/pl/layout_1/l9sl5dik/element_9/logotyp_poziom_biale_tlo.jpg"  class="Image" alt="logo"></img>
-                <h1 id="regulamin"> miejsce na regulamin  :33
+            <h1>tu bedzei regulamin czy co ciocia lub marek wymysli</h1>
+            <br></br>
+                <h1 id="regulamin"> 
+                <p className="regulamin-text">→ zwierzęta nie są akceptowane </p>
+                <p className="regulamin-text">→ doba hotelowa kończy się o godzinie 10.00 </p>
+                <p className="regulamin-text">→ doba hotelowa rozpoczyna się o godzinie 15.00 </p>
                 </h1>
 
         </div>
