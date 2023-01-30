@@ -39,12 +39,85 @@ html {
   width: 100vw;
   margin: 0;
 }
+.SocialeTopText
+{
+    color: black;
+    font-family: "Spectral light";
+    color: rgb(78, 78, 78);
+    text-transform: uppercase;
+    font-size: 4vh;
+    font-weight: bold;
+    
+    
+} 
+
+.SocialeBottomText{
+ font-family: "Spectral light";
+ font-size: 3vh;
+ color: rgb(78, 78, 78);
+ text-transform: uppercase;
+
+}
+
 
 
 .a {
 font-size: 190px;
 animation: pulse 5s linear infinite;
 width: 50%;
+}
+
+.socialinsta{
+  width: 25%;
+  height: auto;
+  margin-top: 10vh;
+  margin: 10vh 2vh 3vh 2vh ;
+}
+.SocialeimgBottomText{
+  float: left;
+  color: black;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+  font-size: 2vh;
+  font-weight: bold;
+  width: 45%;
+  
+}
+.SocialeimgBottomText1{
+  float: left;
+  color: black;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+  font-size: 2vh;
+  font-weight: bold;
+  width: 10%;
+  
+}
+.SocialeimgBottomText2{
+  float: left;
+  color: black;
+  font-family: "Spectral light";
+  color: rgb(78, 78, 78);
+  text-transform: uppercase;
+  font-size: 2vh;
+  font-weight: bold;
+  width: 45%;
+  
+}
+
+.flexCenter{
+  align-items: center;
+  justify-content: center;
+width: 100%;
+height: auto;
+text-align: center;
+
+}
+.paddings{
+  text-align: center;
+  
 }
 
 @-webkit-keyframes pulse {
@@ -86,7 +159,7 @@ section {
 /* Flex */
 .--flex-center {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 .--flex-start {
@@ -361,10 +434,10 @@ img.Image { max-width: 30%;}
 
 
 .sliders{
-  width: 45%;
+  width: 50%;
   float: left;
   margin: 10vh 0vh 10vh 10vh;
- height: 55vh;
+ height: 70vh;
 
   
 }
@@ -414,11 +487,20 @@ opacity: 0.7;
   font-family: calimbri light;
 }
 
+.sociale{
+  width: 100%;
+  height: 100vh;
+  clear: both;
+  position: relative;
+  text-align: center;
+}
+
 .box{
     opacity: 0;
     position: absolute;
     width: 100%;
     text-align: center;
+    font-family: calimbri light;
 }
 
 .t1{
@@ -500,7 +582,7 @@ object-fit: cover;
 }
 
 .regulamin{
-  width: 44.30%;
+  width: 30%;
   height: 50vh;
   float: left;
   margin: 10vh 0vh 10vh 0vh;

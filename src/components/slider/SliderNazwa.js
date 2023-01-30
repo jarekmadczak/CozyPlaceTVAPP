@@ -12,7 +12,7 @@ const SliderNazwa = () => {
 
   const nextSlide = () => {
     setCurrentSlide(currentSlide === slideLength - 1 ? 0 : currentSlide + 1);
-    console.log("next");
+    
   };
 
   const prevSlide = () => {

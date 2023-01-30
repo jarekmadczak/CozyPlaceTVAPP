@@ -4,7 +4,7 @@ import Logo from '../pages/logo.png'
 
 const Welcome = () =>{
     return (
-        <div>
+        <div id="welcome">
         <div className="welcome">
               
       
@@ -16,10 +16,9 @@ const Welcome = () =>{
             
         <img  src={Logo}  className="logo"></img>
             <div className="text-wrapper">
-                <div className="box t1">Welcome</div>
-                <div className="box t3">Witamy</div>
-                <div className="box t2">On Sikorski</div>
-                <div className="box t4">Na Sikorski</div>
+                <div className="box t1">Welcome On Sikorski</div>
+                <div className="box t2">Witamy na Sikorskim </div>
+       
 
             </div>
             
