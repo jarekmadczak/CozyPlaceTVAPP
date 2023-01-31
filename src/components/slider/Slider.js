@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import "./Slider.scss";
 import { sliderData } from "../../slider-data";
 const Slider = () => {
@@ -47,6 +47,7 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div class="sliderbimg">
+                <LazyLoadImage src={slide.image} effect="blur" alt="slide" />
                 <img src={slide.image} alt="slide"  />
               </div>
             )}
