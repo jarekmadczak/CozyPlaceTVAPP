@@ -1,22 +1,22 @@
 export const sliderData = [
     {
       
-      image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/m1.jpg?raw=true",
+      image: "m1",
       desc: "Apartamenty Cozy Place",
 
     },
     {
-      image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/m2.jpg?raw=true",
+      image: "m2",
       desc: "Cozy Place Apartaments",
 
     },
     {
-      image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/m3.jpg?raw=true",
+      image: "m3",
       desc: "Apartamenty Cozy Place",
 
     },
     {
-      image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/m4.jpg?raw=true",
+      image: "m4",
       desc: "Cozy Place Apartaments",
    
     },
