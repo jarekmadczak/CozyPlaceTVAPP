@@ -96,7 +96,7 @@ html {
   width: 23%;
   padding: 1%;
   height: 40vh;
-  margin: 1vh 2vh 3vh 2vh ;
+  margin: 1vh 1vh 3vh 3vh ;
   filter: drop-shadow(3px 8px 10px gray); 
   border-radius: 1vh;
 }
@@ -239,14 +239,14 @@ section {
   float: left;
   width: 30%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 20%;
  
 }
 .lewy-red{
-  float: right;
+  float: left;
   width: 30%;
   height: auto;
-  margin-right: 10%;
+
   
  
 }

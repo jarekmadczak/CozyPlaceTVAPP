@@ -41,7 +41,7 @@ const Socials = (refs)  =>{
             <div className={'bottomsociale'}>
             <motion.div variants={textVariant(.4)} className={'flexCenter'}>
             <div className={'red'}>
-            <div className="prawy-red"> <p className="SocialeTopText2">Jesteśmy do Twojej dyspozycji</p>
+            <div className="prawy-red"> <p className="SocialeTopText2">Jesteśmy do dyspozycji</p>
             <a  className="SocialeBottomTextK">  <img className="smalluk" src="https://upload.wikimedia.org/wikipedia/commons/7/7d/National_Flag_of_Poland.png"></img> +48 515 010 510 </a></div>
            
             <div className="lewy-red">  <p className="SocialeTopText2">You can reach us here</p> <a  className="SocialeBottomTextK"> <img className="smalluk" src="https://img.freepik.com/free-vector/illustration-uk-flag_53876-18166.jpg"></img>   +48 502 590 584  </a></div>

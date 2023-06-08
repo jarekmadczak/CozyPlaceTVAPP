@@ -1,19 +1,19 @@
 export const sliderData = [
   {
-    image: "s1",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/s1.jpg?raw=true",
    
    
   },
   {
-    image: "s2",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/s2.jpg?raw=true",
    
   },
   {
-    image: "s3",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/s3.jpg?raw=true",
    
   },
   {
-    image: "s4",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/s4.jpg?raw=true",
    
   }
   

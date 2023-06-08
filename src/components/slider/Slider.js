@@ -47,8 +47,8 @@ const Slider = () => {
           >
             {index === currentSlide && (
               <div class="sliderbimg">
-             
-                <img src="../a1.jpg" alt="slide"  />
+             <LazyLoadImage src={slide.image} alt="slide" effect="blur" className="image" class="sliderimg"/>
+                
               </div>
             )}
           </div>

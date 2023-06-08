@@ -1,24 +1,24 @@
 export const sliderData = [
   {
-    image: "a1",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/a1.jpg?raw=true",
    
   },
   //łobzowska
 
   {
-    image: "a2",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/a2.jpg?raw=true",
    
   },
   //b7
 
   {
-    image: "a3",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/a3.jpg?raw=true",
    
   },
   //sikor
   
   {
-    image: "a4",
+    image: "https://github.com/jarekmadczak/CozyPlaceTVAPP/blob/main/src/components/slider/a4.jpg?raw=true",
    
   },
 //felicje

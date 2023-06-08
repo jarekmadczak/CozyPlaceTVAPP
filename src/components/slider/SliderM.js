@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { sliderData } from "../../sliderm-data";
 import "./Slider.scss";
-
-
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const SliderM = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
