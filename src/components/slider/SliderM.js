@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import { sliderData } from "../../sliderm-data";
 import "./Slider.scss";
+
+
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const SliderM = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -40,12 +42,13 @@ const SliderM = () => {
 
     <div className="slider" class="sliderM">
       {sliderData.map((slide, index) => {
+        
         return (
           <div
             className={index === currentSlide ? "slide current" : "slide"}
             key={index}
           >
-            {index === currentSlide && (
+            {index === currentSlide &&  (
               <div>
                 <LazyLoadImage src={slide.image} alt="slide" effect="blur" className="image" class="sliderimg"/>
               </div>

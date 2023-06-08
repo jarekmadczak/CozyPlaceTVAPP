@@ -7,10 +7,11 @@ import Logo from '../pages/logo.png'
 const Sliders = () =>{
     return (
         <div className="sliders">
-             <SliderNazwa />
+            
            <SliderS /> 
            <SliderM /> 
            <Slider /> 
+           <SliderNazwa />
         </div>
    
     );

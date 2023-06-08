@@ -47,7 +47,7 @@ const SliderNazwa = () => {
               <div>
                 <div className="content">
                   <p className="top-cont">{slide.desc} </p>
-                  <p className="Bottom-content"> {slide.heading}</p>
+
                 </div>
               </div>
             )}

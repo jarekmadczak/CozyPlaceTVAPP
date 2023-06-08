@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
 :root {
   --font-family: "Poppins", sans-serif;
   --dark-blue: #0a1930;
@@ -9,7 +9,7 @@
   --color-dark: #333;
 
   --color-grey: #eae6eb;
-  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  
 
   --color-purple: #660099;
   --color-orange: #ff7722;
@@ -44,25 +44,30 @@ html {
   font-family: calibri light;
   color:#e0ab75;
   font-size: 4vh;
+  margin-top: 1vh;
+ 
+  text-transform: uppercase;
+} 
+.SocialeTopText2
+{
+  font-family: calibri light;
+  color:#000000;
+  font-size: 4vh;
+  margin-top: 1vh;
 } 
 
 
 
 .bottomsociale{
-  border-radius: 1vh;
-  width: 32%;
-  height: 40vh;
-  float: left;
-  height: 40vh;
-  margin-top: 5vh;
-  padding-left: 1%;
+
+  text-align: center;
 }
 .qrcodes{
   width: 40%;
 }
 
 .SocialeBottomText{
- font-family: "Spectral light";
+ font-family: calibri light;
  font-size: 3vh;
  color: rgb(78, 78, 78);
  text-transform: uppercase;
@@ -70,8 +75,8 @@ html {
 }
 
 .SocialeBottomTextK{
-  font-family: "Spectral light";
-  font-size: 5vh;
+  font-family: calibri light;
+  font-size: 4vh;
   color: rgb(78, 78, 78);
   text-transform: uppercase;
  
@@ -106,7 +111,7 @@ html {
 .SocialeimgBottomText{
   float: left;
   color: black;
-  font-family: "Spectral light";
+  font-family: calibri light;
   color: rgb(78, 78, 78);
   text-transform: uppercase;
   font-size: 5vh;
@@ -116,7 +121,7 @@ html {
   
 }
 .smalluk{
-  width: 8%;
+  width: 5vh;
   height: 3.33vh;
 }
 .smallicons{
@@ -128,7 +133,7 @@ html {
 .SocialeimgBottomText1{
   float: left;
   color: black;
-  font-family: "Spectral light";
+  font-family: calibri light;
   color: rgb(78, 78, 78);
   font-size: 4vh;
   margin-top: 10vh;
@@ -139,7 +144,7 @@ html {
 .SocialeimgBottomText3{
   float: left;
   color: black;
-  font-family: "Spectral light";
+  font-family: calibri light;
   color: rgb(78, 78, 78);
   font-size: 4vh;
   margin-top: 10vh;
@@ -149,7 +154,7 @@ html {
 .SocialeimgBottomText2{
   float: left;
   color: black;
-  font-family: "Spectral light";
+  font-family: calibri light;
   color: rgb(78, 78, 78);
   font-size: 4vh;
   margin-top: 10vh;
@@ -164,14 +169,31 @@ html {
   height: 110vh;
 }
 
+.flexCenter2{
+  align-items: center;
+  justify-content: center;
+width: 100%;
+height: auto;
+margin-top: 4vh;
+text-align: center;
 
+}
 .flexCenter{
   align-items: center;
   justify-content: center;
 width: 100%;
 height: auto;
+margin-top: -4svh;
 text-align: center;
 
+}
+.flexcente{
+  align-items: center;
+  justify-content: center;
+width: 100%;
+height: auto;
+margin-top: 4svh;
+text-align: center;
 }
 .paddings{
   text-align: center;
@@ -179,7 +201,7 @@ text-align: center;
 }
 .a {
     
-  animation: pulse 5s linear infinite;
+  animation: pulse s linear infinite;
 }
 @-webkit-keyframes pulse {
 0% {
@@ -205,13 +227,28 @@ body {
   scrollbar-width: none; 
   font-family:"Spectral 200 normal";
   font-size: 48px;
-  text-shadow: 1px 1px 1px #aaa;
+
   background-color: white;
 }
 
 section {
   width: 100%;
-  padding: 8rem 0;
+ 
+}
+.prawy-red{
+  float: left;
+  width: 30%;
+  height: auto;
+  margin-left: 10%;
+ 
+}
+.lewy-red{
+  float: right;
+  width: 30%;
+  height: auto;
+  margin-right: 10%;
+  
+ 
 }
 
 .container {
@@ -501,7 +538,7 @@ h4 {
 .sliders{
   width: 50%;
   float: left;
-  margin: 6% 2% 10% 10%;
+  margin: 6% -2% 10% 10%;
  height: 70vh;
 
   
@@ -518,12 +555,12 @@ margin-bottom: 3vh;
 height: 97vh;
 display: flex;
 top: -50%;
-filter: drop-shadow(8px 8px 10px gray);
+
 }
 .welcome::after{
 content: "";
 width: 100%;
-height: 100%;
+height: 97%;
 position: absolute;
 top: 0;
 left: 0;
@@ -554,7 +591,8 @@ opacity: 0.7;
   margin-top: -7vh;
   font-size: 9vh;
   text-transform: uppercase;
-  font-family: calimbri light;
+  font-family:'Arial';
+  color: rgb(206, 206, 206);
 }
 
 .sociale{
@@ -570,24 +608,17 @@ opacity: 0.7;
     position: absolute;
     width: 100%;
     text-align: center;
-    font-family: calimbri light;
+    font-family: 'Arial light';
+    color: rgb(206, 206, 206);
 }
 
 .t1{
-  animation: ani1 15s infinite;
+  animation: ani1 7s infinite;
 }
 .t2{
-  animation: ani2 15s infinite;
+  animation: ani2 7s infinite;
 }
-.t3{
-  animation: ani3 15s infinite;
-}
-.t4{
-  animation: ani4 15s infinite;
-}
-.t5{
-  animation: ani5 15s infinite;
-}
+
 
 @keyframes ani1 {
  10%{
@@ -600,23 +631,32 @@ opacity: 0.7;
   opacity: 1;
  } 
  40%{
+  opacity: 1;
+ }
+ 50%{
   opacity: 0;
  }
 
 }
  @keyframes ani2 {
+  50% {
+    opacity: 0;
+  }
   60%{
-   opacity: 0;
-  } 
-  70%{
     opacity: 1;
    } 
+  70%{
+   opacity: 1;
+  } 
   80%{
    opacity: 1;
   } 
   90%{
-   opacity: 0;
-  } 
+    opacity: 1;
+   } 
+   100%{
+    opacity: 0;
+   } 
 
 }
 
@@ -658,19 +698,31 @@ object-fit: cover;
 
 }
 .regulamin-text{
-  text-align: left;
-  font-family: "Spectral light";
+  text-align: center;
+  font-family: calibri light;
   color: rgb(78, 78, 78);
-  text-transform: uppercase;
   font-size: 4vh;
+
+}
+.regulamin-text-2{
+  text-align: center;
+  font-family: 'Kalam', cursive;;
+  color: rgb(78, 78, 78);
+  font-size: 3vh;
+}
+.serce{
+  text-align: center;
+  color: rgb(78, 78, 78);
+  font-size: 2vh;
   margin-top: 1vh;
 }
 .regulamin{
-  width: 30%;
+  width: 38%;
   height: 50vh;
   float: left;
   margin: 10vh 0vh 10vh 0vh;
- height: 55vh;
+  padding-top: 5%;
+
 }
 @media screen and (max-width: 600px) {
   .--flex-center {

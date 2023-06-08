@@ -33,11 +33,13 @@
   height: 5vh;
   font-size: 5vh;
   margin-bottom: 6vh;
-  margin-top: -3vh;
-  color: #e0ab75;
+  margin-top: 4vh;
+  color: black;
   position: relative;
   letter-spacing: 0.2vh;
   float: left;
+  margin-left: 3vh;
+  text-align: right;
   
   
 }
@@ -45,7 +47,7 @@
 .top-cont{
 font-size: 3vh;
 font-family: calibri light;
-color:#e0ab75;
+color: black;
 text-transform: uppercase;
 }
 
@@ -81,7 +83,7 @@ text-transform: uppercase;
 .content {
   opacity: 0;
   width: 75%;
-  animation: slide-up 2s ease 2s;
+  animation: slide-up 1s ease 1s;
   animation-fill-mode: forwards;
 
 }
